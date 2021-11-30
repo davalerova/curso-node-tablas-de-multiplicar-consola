@@ -16,7 +16,7 @@ const argv = require('yargs')
     alias: 'hasta',
     type: 'number',
     demandOption: true,
-    describe: 'El valos hasta donde se imprimirá la tabla',
+    describe: 'El valor hasta donde se imprimirá la tabla',
     default: 10,
   })
   .check((argv, options) => {
